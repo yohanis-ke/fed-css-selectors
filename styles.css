@@ -1,2 +1,52 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html *
+{
+   font-size: 12pt;
+   color: #000;
+   font-family: Arial;
+}
+h1,h2{
+  font-family: serif;
+}
+header{
+   border-bottom: 4px dotted blue;
+}
+.class-list{
+  list-style: square;
+
+}
+
+.item {
+  border-style: dotted;
+}
+.even{
+  background-color: grey;
+}
+.odd{
+  background-color: black;
+  background-color: white;
+}
+odd:default{
+  background-color: green;
+}
+a[title~=Bitmaker]:hover {
+  text-decoration:none;
+}
+#item1{
+  font-size: 30px;
+}
+#item2{
+  text-align: right;
+}
+.exercises > ol >li {
+  padding: 10pt;
+  background-color: grey;
+}
+
+.exercises ol ul a:hover{
+  background-color: yellow;
+}
+.exercises ol ul a:active{
+  background-color: red;
+}
